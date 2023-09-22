@@ -1,5 +1,5 @@
 esp_toml_version = 1.0
-firmware_images_url = "https://codfish-pt.github.io/flui/"
+firmware_images_url = "https://codfish-pt.github.io/"
 
 supported_apps = ["flui"]
 
