@@ -1,7 +1,11 @@
 esp_toml_version = 1.0
 firmware_images_url = "https://codfish-pt.github.io/bin/"
 
-supported_apps = ["flui"]
+supported_apps = ["tracker"]
+
+[tracker]
+chipsets = ["ESP32C3"]
+image.esp32c3 = "tracker-image.bin"
 
 [flui]
 chipsets = ["ESP32C3"]
